@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %} {% endblock %}
+{% block footer%} {% endblock %}
+
+{% block body %}
+
+    <section class="page-heading">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 >Predict The Future</h1>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <section class="page-content">
+      <div class="container">
+          <div class="row ">
+              <div class="container">
+                <form method="post">
+                      <div class="form-group">
+                        <label for="formGroupExampleInput">Enter Name of Company</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Company Name">
+                          <br>
+                          <button type="button" class="btn btn-secondary">Get Prediction</button>
+                          <br>
+                          <p></p>
+                          <br>
+                          <button type="button" class="btn btn-secondary">Get Graph</button>
+                      </div>
+                </form>
+          </div>
+              </div>
+      </div>
+    </section>
+
+{% endblock %}
